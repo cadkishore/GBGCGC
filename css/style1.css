@@ -1,0 +1,98 @@
+body
+{
+	overflow: scroll;
+}
+
+.class1{
+    border: 3px solid coral ;
+  border-radius: 5px;
+  padding: 12px;
+  background-color: #E6E1DC ;
+  height: 55px;
+  width: 300px;
+  
+}
+
+.collapsible {
+ 
+  cursor: pointer;
+
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  
+}
+.floatl
+{
+float: left;
+}
+.float2
+{
+ 
+	
+}
+.float3
+{
+float: right;
+}
+.fontT
+{
+font-size: 30px;
+
+}
+.fontu
+{
+font-size: 25px;
+}
+.fonti
+{
+font-size: 20px;
+}
+   
+ table, th, td {
+  border: 1px solid black;
+  
+}
+
+table {
+  border-collapse: collapse;
+  
+  width: 85%;
+}
+
+th {
+  height: 50px;
+}
+.wrapper{ 
+    // width: 1000px;
+    //width:600px; 
+    overflow-y:scroll; 
+    position:relative;
+    height: 650px;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
